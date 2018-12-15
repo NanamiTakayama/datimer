@@ -5,7 +5,7 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "python3 ./datimer.py"
+     "start": "python3 -u datimer.py"
     }
 }
 
