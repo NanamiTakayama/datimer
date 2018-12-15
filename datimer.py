@@ -8,4 +8,4 @@ while True:
     dt_now = datetime.datetime.now()
     print(dt_now)
     print(change_var)
-    sleep(3)
+    sleep(5)
