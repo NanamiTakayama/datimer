@@ -1,4 +1,9 @@
 {
+  "name": "python-app",
+  "version": "Nothing test",
+  "author": "Nanami Setoyama",
+  "language":"python",
+  "license": "",
   "scripts": {
      "start": "python3 datimer.py"
     }
