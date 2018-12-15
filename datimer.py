@@ -1,11 +1,12 @@
 import datetime
 import time
+import subprocess
 from time import sleep
 
-change_var = "hello isaax"
+cmd = ["ps", "aux"]
 
 while True:
     dt_now = datetime.datetime.now()
+    returncode = subprocess.call(cmd)
     print(dt_now)
-    print(change_var)
     sleep(5)
